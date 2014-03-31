@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2013-06-11 BZR 4021)-stable date = Thu 06 Feb 2014 03:40:16 PM CST
+
+BeginCmp
+TimeStamp = /52F32A1F;
+Reference = C1;
+ValeurCmp = 47uF;
+IdModule  = C_2.5mm_6.3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F32A2E;
+Reference = C2;
+ValeurCmp = 47uF;
+IdModule  = C_2.5mm_6.3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F329B6;
+Reference = C3;
+ValeurCmp = 220uF;
+IdModule  = C_5mm_10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F32D01;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = C_2mm_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F32CF2;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = C_2mm_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F329C5;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = C_2mm_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F329F2;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = C_2mm_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F32A01;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = C_2mm_5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F31CC4;
+Reference = J1;
+ValeurCmp = CONN_3;
+IdModule  = CONN_MINI-FIT-JR_3_TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F31CE2;
+Reference = J2;
+ValeurCmp = CONN_3;
+IdModule  = CONN_MINI-FIT-JR_3_TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F31CD3;
+Reference = J3;
+ValeurCmp = CONN_3;
+IdModule  = CONN_MINI-FIT-JR_3_TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F3238D;
+Reference = PS1;
+ValeurCmp = RAC15-15DA;
+IdModule  = PS_RACOM_RAC15;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F3239C;
+Reference = PS2;
+ValeurCmp = VSK-S20-12U;
+IdModule  = PS_CUI_VSK-S20;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F3FE75;
+Reference = U1;
+ValeurCmp = 7812;
+IdModule  = TO220_HORIZ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F3FF00;
+Reference = U2;
+ValeurCmp = 7912;
+IdModule  = TO220_HORIZ;
+EndCmp
+
+EndListe

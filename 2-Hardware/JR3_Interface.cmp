@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPcb (2013-06-11 BZR 4021)-stable date = Sat 08 Feb 2014 02:23:06 AM CST
+
+BeginCmp
+TimeStamp = /52F32826;
+Reference = J1;
+ValeurCmp = DB9;
+IdModule  = CONN_DB9_SLIM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F32835;
+Reference = J2;
+ValeurCmp = CONN_3;
+IdModule  = CONN_MINI-FIT-JR_3_TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F5C6BD;
+Reference = J3;
+ValeurCmp = CONN_3;
+IdModule  = CONN_1x3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F3280E;
+Reference = P1;
+ValeurCmp = HE10-34;
+IdModule  = CONN_2x17;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F5D3C7;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F5C9B0;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F5C9A1;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+EndListe
