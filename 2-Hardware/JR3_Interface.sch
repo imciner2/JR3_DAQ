@@ -42,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "JR3 Interface"
-Date "30 mar 2014"
+Date "16 apr 2014"
 Rev "A"
 Comp "Iowa State University"
 Comment1 "Drawn by: Ian McInerney"
@@ -86,7 +86,7 @@ $EndComp
 Text Notes 2050 3600 0    60   ~ 0
 To JR3 Sensor
 Text Notes 4300 3250 0    60   ~ 0
-To NI DAQ\n(All channels are in an NRSE configuration)
+To NI DAQ\n(All channels are in differential configuration)
 Text Notes 7500 3750 0    60   ~ 0
 To JR3 Power Supply
 Text Notes 7350 4600 0    60   ~ 0
@@ -114,19 +114,19 @@ Wire Wire Line
 	3950 3850 3750 3850
 Connection ~ 3750 3850
 Wire Wire Line
-	3950 4150 3750 4150
+	3750 4150 3950 4150
 Connection ~ 3750 4150
 Wire Wire Line
-	3950 4450 3750 4450
+	3750 4450 3950 4450
 Connection ~ 3750 4450
 Wire Wire Line
-	3950 4750 3750 4750
+	3750 4750 3950 4750
 Connection ~ 3750 4750
 Wire Wire Line
-	3950 4850 3750 4850
+	3750 4850 3950 4850
 Connection ~ 3750 4850
 Wire Wire Line
-	3950 4950 3750 4950
+	3750 4950 3950 4950
 Connection ~ 3750 4950
 Wire Wire Line
 	5150 3650 5350 3650
@@ -134,10 +134,10 @@ Wire Wire Line
 	5150 3950 5350 3950
 Connection ~ 5350 3950
 Wire Wire Line
-	5150 4250 5350 4250
+	5350 4250 5150 4250
 Connection ~ 5350 4250
 Wire Wire Line
-	5150 4550 5350 4550
+	5350 4550 5150 4550
 Connection ~ 5350 4550
 Text Label 2650 3900 0    60   ~ 0
 Fx
@@ -347,18 +347,18 @@ $EndComp
 $Comp
 L GND #PWR010
 U 1 1 52F5D311
-P 5250 4850
-F 0 "#PWR010" H 5250 4850 30  0001 C CNN
-F 1 "GND" H 5250 4780 30  0001 C CNN
-F 2 "" H 5250 4850 60  0000 C CNN
-F 3 "" H 5250 4850 60  0000 C CNN
-	1    5250 4850
+P 5250 5250
+F 0 "#PWR010" H 5250 5250 30  0001 C CNN
+F 1 "GND" H 5250 5180 30  0001 C CNN
+F 2 "" H 5250 5250 60  0000 C CNN
+F 3 "" H 5250 5250 60  0000 C CNN
+	1    5250 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5150 4750 5250 4750
 Wire Wire Line
-	5250 4750 5250 4850
+	5250 3850 5250 5250
 Wire Wire Line
 	3750 3550 3750 5600
 Wire Wire Line
@@ -368,7 +368,7 @@ L R R1
 U 1 1 52F5D3C7
 P 4550 6000
 F 0 "R1" V 4630 6000 40  0000 C CNN
-F 1 "0" V 4557 6001 40  0000 C CNN
+F 1 "20k" V 4557 6001 40  0000 C CNN
 F 2 "~" V 4480 6000 30  0000 C CNN
 F 3 "~" H 4550 6000 30  0000 C CNN
 	1    4550 6000
@@ -395,4 +395,35 @@ Connection ~ 4550 5600
 Text Label 5450 5600 0    60   ~ 0
 AI_GND
 Connection ~ 5350 5600
+$Comp
+L GND #PWR?
+U 1 1 534E1051
+P 3850 5250
+F 0 "#PWR?" H 3850 5250 30  0001 C CNN
+F 1 "GND" H 3850 5180 30  0001 C CNN
+F 2 "" H 3850 5250 60  0000 C CNN
+F 3 "" H 3850 5250 60  0000 C CNN
+	1    3850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4650 3950 4650
+Wire Wire Line
+	5150 4450 5250 4450
+Connection ~ 5250 4750
+Wire Wire Line
+	3950 4350 3850 4350
+Connection ~ 3850 4650
+Wire Wire Line
+	5150 4150 5250 4150
+Connection ~ 5250 4450
+Wire Wire Line
+	3950 4050 3850 4050
+Connection ~ 3850 4350
+Wire Wire Line
+	5150 3850 5250 3850
+Connection ~ 5250 4150
+Connection ~ 3850 4050
+Wire Wire Line
+	3850 4050 3850 5250
 $EndSCHEMATC
