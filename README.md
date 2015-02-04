@@ -10,16 +10,16 @@ Analog Data Acquisition unit for a JR3 Force/Moment sensor.
 
 
 ## Sensor:
-*	It must interface with a JR3	67M25A3-I40-AH 200N
-*	That sensor requires a +-12V supply
-*	That sensor provides a +-10V output
+It must interface with a JR3	67M25A3-I40-AH 200N. That sensor has the following features:
+*	Requires a +-12V supply
+*	Provides a +-10V output
 	
 
 ## Digital Acquisition Hardware
-*	It uses a NI USB-6221 DAQ in the OEM form-factor
-**	16 analog inputs
-**	250kS/s
-**	Labview interface
-**	http://sine.ni.com/nips/cds/view/p/lang/en/nid/209809
-**	34-pin ribbon cable connector
+It uses a NI USB-6221 DAQ in the OEM form-factor. That sensor has the following features:
+*	16 analog inputs
+*	250kS/s
+*	Labview interface
+*	http://sine.ni.com/nips/cds/view/p/lang/en/nid/209809
+*	34-pin ribbon cable connector
 
